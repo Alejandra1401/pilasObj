@@ -45,7 +45,8 @@ public class metodos
         {
             if(o.getMarca().equalsIgnoreCase(dato))
             {
-                pila.pop();
+                pila.remove(o);//para eliminar pila posicion 
+                System.out.println("Registro eliminado");
             }
         }
         return pila;
